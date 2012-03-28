@@ -5,9 +5,9 @@ This build includes symfony project setup with mongodbodm.
 
 The following symfony2 components have been used.
 
-	1. class-loader
-	2. console
-	3. yaml
+* class-loader
+* console
+* yaml
 
 ProjectConfiguration has been enabled for using mongodb
 
