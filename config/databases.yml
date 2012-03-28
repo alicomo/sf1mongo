@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn:      mysql:host=localhost;dbname=ilyathica
+      username: root
+      password: 
+
+#  doctrine_mongodb:
+#    connections:
+#      default:
+#        server: mongodb://localhost:27017
+#        options:
+#          connect: true
+#    default_database: sf2mongo
+#    document_managers:
+#      default:
+#        auto_mapping: true
