@@ -3,10 +3,10 @@
 
 This build includes symfony project setup with mongodbodm.
 
-The following symfony 2 components have been used 
-class-loader
-console
-yamel
+The following symfony2 components have been used:
+	class-loader
+	console
+	yaml
 
 ProjectConfiguration has been enabled for using mongodb
 
@@ -20,7 +20,6 @@ ProjectConfiguration has been enabled for using mongodb
 	
 # Usage
 	Make all of your actions classes to extend mongoActions
-	
 	Enjoy mongodb with sf1
 	
 
