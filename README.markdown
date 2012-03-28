@@ -14,8 +14,8 @@ ProjectConfiguration has been enabled for using mongodb
 # Installation:
 	1. Clone the repo to your local machine.
 	2. Run the following commands  from repo root
-		* git submodule init
-		* git submodule update
+		$ git submodule init
+		$ git submodule update
 	3. cd to lib/vendor/mongodb-odm
 	4. Run curl -s http://getcomposer.org/installer | php
 	5. Run php composer.phar install
