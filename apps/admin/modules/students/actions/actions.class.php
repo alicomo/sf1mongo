@@ -26,10 +26,10 @@ class studentsActions extends mongoActions
       $student->setAddress('Como Chennai');
       $dm->persist($student);
       $dm->flush();
-      $query = $dm->getDocumentCollection('Documents\Student')->find();
-      echo '<pre>';
-      print_r($query->getCollection());exit;
-      $this->students = $query;
+      $query = $dm->getRepository('Documents\Student');
+      
+      
+      $this->students = $query->findAll();
     
   }
 }

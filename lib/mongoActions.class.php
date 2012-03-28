@@ -17,10 +17,10 @@ class mongoActions extends sfActions {
       $config = new Configuration();
       $config->setDefaultDB('ilythica');
   
-      $config->setProxyDir(__DIR__ . '/cache');
+      $config->setProxyDir(sfConfig::get('sf_cache_dir'));
       $config->setProxyNamespace('Proxies');
 
-      $config->setHydratorDir(__DIR__ . '/cache');
+      $config->setHydratorDir(sfConfig::get('sf_cache_dir'));
       $config->setHydratorNamespace('Hydrators');
 
       $reader = new AnnotationReader();

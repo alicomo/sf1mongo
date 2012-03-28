@@ -648,3 +648,117 @@ Mar 28 13:05:54 symfony [info] {sfPatternRouting} Match route "default_index" (/
 Mar 28 13:05:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
 Mar 28 13:05:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
 Mar 28 13:05:54 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:32:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:32:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:32:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:32:00 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:32:00 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 347 (class_parents(): Class Documents/Student does not exist and could not be loaded)
+Mar 28 13:32:00 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 347 (array_reverse() expects parameter 1 to be array, boolean given)
+Mar 28 13:32:00 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 347 (Invalid argument supplied for foreach())
+Mar 28 13:32:00 symfony [err] {ReflectionException} Class Documents/Student does not exist
+Mar 28 13:32:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 28 13:32:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 28 13:32:00 symfony [info] {sfWebDebugLogger} Configuration 17.77 ms (10)
+Mar 28 13:32:00 symfony [info] {sfWebDebugLogger} Factories 23.53 ms (1)
+Mar 28 13:32:00 symfony [info] {sfWebDebugLogger} Action "students/index" 96.29 ms (1)
+Mar 28 13:32:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:32:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:32:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:32:18 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:32:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:32:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:32:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:32:51 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:33:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:33:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:33:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:33:01 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:33:01 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:33:01 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 374 (file_put_contents(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:33:01 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 146 (require(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:33:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:33:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:33:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:33:25 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:33:25 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:33:25 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 374 (file_put_contents(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:33:25 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 146 (require(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:34:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:34:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:34:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:34:08 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:34:08 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:34:08 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 374 (file_put_contents(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:34:08 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 146 (require(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:34:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:34:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:34:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:34:33 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:34:33 symfony [err] {Doctrine\ODM\MongoDB\Hydrator\HydratorException} You must configure a hydrator directory. See docs for details
+Mar 28 13:34:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 28 13:34:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 28 13:34:33 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (8)
+Mar 28 13:34:33 symfony [info] {sfWebDebugLogger} Factories 3.14 ms (1)
+Mar 28 13:34:33 symfony [info] {sfWebDebugLogger} Action "students/index" 15.70 ms (1)
+Mar 28 13:34:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:34:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:34:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:34:47 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:34:47 symfony [err] {Doctrine\ODM\MongoDB\Hydrator\HydratorException} You must configure a hydrator directory. See docs for details
+Mar 28 13:34:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 28 13:34:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 28 13:34:47 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (8)
+Mar 28 13:34:47 symfony [info] {sfWebDebugLogger} Factories 3.30 ms (1)
+Mar 28 13:34:47 symfony [info] {sfWebDebugLogger} Action "students/index" 15.33 ms (1)
+Mar 28 13:34:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:34:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:34:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:34:51 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:34:51 symfony [err] {Doctrine\ODM\MongoDB\Hydrator\HydratorException} You must configure a hydrator directory. See docs for details
+Mar 28 13:34:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 28 13:34:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 28 13:34:51 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (8)
+Mar 28 13:34:51 symfony [info] {sfWebDebugLogger} Factories 3.20 ms (1)
+Mar 28 13:34:51 symfony [info] {sfWebDebugLogger} Action "students/index" 15.51 ms (1)
+Mar 28 13:35:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:35:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:35:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:35:00 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:35:00 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:35:00 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 374 (file_put_contents(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:35:00 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 146 (require(/Users/shaduli/projects/sf1mongo/lib/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:36:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:36:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:36:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:36:47 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:36:47 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:36:47 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 374 (file_put_contents(/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:36:47 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php on line 146 (require(/cache/DocumentsStudentHydrator.php): failed to open stream: No such file or directory)
+Mar 28 13:37:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:37:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:37:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:37:32 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:37:32 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:37:32 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 28 13:37:32 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 28 13:37:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 28 13:37:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 28 13:37:32 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Mar 28 13:37:32 symfony [info] {sfWebDebugLogger} Factories 3.38 ms (1)
+Mar 28 13:37:32 symfony [info] {sfWebDebugLogger} Action "students/index" 5.61 ms (1)
+Mar 28 13:37:32 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 4.25 ms (1)
+Mar 28 13:37:32 symfony [info] {sfWebResponse} Send content (28166 o)
+Mar 28 13:37:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 28 13:37:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 28 13:37:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 28 13:37:49 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 28 13:37:49 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 28 13:37:49 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 28 13:37:49 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 28 13:37:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 28 13:37:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 28 13:37:49 symfony [info] {sfWebDebugLogger} Configuration 0.66 ms (9)
+Mar 28 13:37:49 symfony [info] {sfWebDebugLogger} Factories 2.85 ms (1)
+Mar 28 13:37:49 symfony [info] {sfWebDebugLogger} Action "students/index" 5.46 ms (1)
+Mar 28 13:37:49 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 5.50 ms (1)
+Mar 28 13:37:49 symfony [info] {sfWebResponse} Send content (28187 o)
