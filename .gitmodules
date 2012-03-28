@@ -1,0 +1,3 @@
+[submodule "lib/vendor/mongodb-odm"]
+	path = lib/vendor/mongodb-odm
+	url = git@github.com:alicomo/mongodb-odm.git
