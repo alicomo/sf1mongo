@@ -22,7 +22,7 @@ class studentsActions extends mongoActions
       $dm = $this->getDocumentManager();
       $student = new Student();
       $student->setId(1);
-      $student->setName('Srinivasan');
+      $student->setName('Muhammadali');
       $student->setAddress('Como Chennai');
       $dm->persist($student);
       $dm->flush();
