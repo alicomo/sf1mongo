@@ -18,11 +18,10 @@ class studentsActions extends mongoActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    
-      $dm = $this->getDocumentManager();
+      $dm = sfDocumentManager::getDocumentManager();
       $student = new Student();
       $student->setId(1);
-      $student->setName('Muhammadali');
+      $student->setName('Muhammadali Shaduli');
       $student->setAddress('Como Chennai');
       $dm->persist($student);
       $dm->flush();

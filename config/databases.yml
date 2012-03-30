@@ -9,13 +9,5 @@ all:
       username: root
       password: 
 
-#  doctrine_mongodb:
-#    connections:
-#      default:
-#        server: mongodb://localhost:27017
-#        options:
-#          connect: true
-#    default_database: sf2mongo
-#    document_managers:
-#      default:
-#        auto_mapping: true
+
+      
