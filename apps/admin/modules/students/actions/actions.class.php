@@ -31,4 +31,20 @@ class studentsActions extends sfActions
       $this->students = $query->findAll();
     
   }
+  
+  
+  public function executeNew(sfWebRequest $request) {
+      $this->form =  new StudentForm();
+      
+  }
+  
+  
+  public function executeEdit(sfWebRequest $request) {
+      $dm = sfDocumentManager::getDocumentManager();
+      $student = $dm->find('Documents\Student', array('id' => $request->getParameter('id')));
+      print_r($student); exit;
+      //$this->form = new StudentForm($student->);
+  }
+  
+  
 }
