@@ -31,7 +31,8 @@ ProjectConfiguration has been enabled for using mongodb
         5. Doctrine ODM Configuration object can retrieved using sfDocumentManager::getConfiguration()
 
 	
-
+Note: 
+    mongoActions has been deprecated.
 
 ## More resources:
 
