@@ -22,8 +22,14 @@ ProjectConfiguration has been enabled for using mongodb
 	6. clear the cache
 	
 # Usage
-	Make all of your actions classes to extend mongoActions
-	Enjoy mongodb with sf1
+	1. create an odm.yml in config folder
+        2. Configure the database as follows:
+            odm:
+              database: testdb
+        3. Initialize a document manager object by using sfDocumentManager::getDocumentManager()
+        4. Database can be changed using sfDocumentManager::setDatabase($database)
+        5. Doctrine ODM Configuration object can retrieved using sfDocumentManager::getConfiguration()
+
 	
 
 
