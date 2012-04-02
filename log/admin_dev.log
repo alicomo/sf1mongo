@@ -1,0 +1,804 @@
+Mar 30 11:24:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:24:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:24:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:24:44 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:24:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:24:44 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:24:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:24:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:24:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:24:44 symfony [info] {sfWebDebugLogger} Configuration 118.47 ms (9)
+Mar 30 11:24:44 symfony [info] {sfWebDebugLogger} Factories 132.35 ms (1)
+Mar 30 11:24:44 symfony [info] {sfWebDebugLogger} Action "students/index" 85.78 ms (1)
+Mar 30 11:24:44 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 45.88 ms (1)
+Mar 30 11:24:44 symfony [info] {sfWebResponse} Send content (29698 o)
+Mar 30 11:30:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:30:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:30:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:30:52 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:30:52 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/symfony/lib/autoload/sfAutoload.class.php on line 188 (require(/Users/shaduli/projects/sf1mongo/lib/sfDocumentManager.class.php): failed to open stream: No such file or directory)
+Mar 30 11:31:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:31:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:31:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:31:14 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:32:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:32:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:32:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:32:14 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:32:14 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 19 (Undefined variable: database)
+Mar 30 11:32:15 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:32:15 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:32:15 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:32:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:32:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:32:15 symfony [info] {sfWebDebugLogger} Configuration 6.49 ms (10)
+Mar 30 11:32:15 symfony [info] {sfWebDebugLogger} Factories 3.28 ms (1)
+Mar 30 11:32:15 symfony [info] {sfWebDebugLogger} Action "students/index" 716.44 ms (1)
+Mar 30 11:32:15 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 343.50 ms (1)
+Mar 30 11:32:15 symfony [info] {sfWebResponse} Send content (27824 o)
+Mar 30 11:32:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:32:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:32:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:32:52 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:32:53 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:32:53 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:32:53 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:32:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:32:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:32:53 symfony [info] {sfWebDebugLogger} Configuration 0.63 ms (9)
+Mar 30 11:32:53 symfony [info] {sfWebDebugLogger} Factories 3.01 ms (1)
+Mar 30 11:32:53 symfony [info] {sfWebDebugLogger} Action "students/index" 761.02 ms (1)
+Mar 30 11:32:53 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 184.54 ms (1)
+Mar 30 11:32:53 symfony [info] {sfWebResponse} Send content (27822 o)
+Mar 30 11:33:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:33:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:33:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:33:23 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:33:23 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:33:23 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:33:23 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:33:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:33:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:33:23 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Mar 30 11:33:23 symfony [info] {sfWebDebugLogger} Factories 3.20 ms (1)
+Mar 30 11:33:23 symfony [info] {sfWebDebugLogger} Action "students/index" 5.69 ms (1)
+Mar 30 11:33:23 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 6.28 ms (1)
+Mar 30 11:33:23 symfony [info] {sfWebResponse} Send content (30048 o)
+Mar 30 11:51:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:51:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:51:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:51:37 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:51:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:51:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:51:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:51:54 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:52:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:52:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:52:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:52:14 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:52:14 symfony [err] {sfWebDebugLogger}  Strict notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 20 (Non-static method sfDocumentManager::getConfig() should not be called statically)
+Mar 30 11:52:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:52:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:52:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:52:35 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:53:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:53:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:53:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:53:26 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:55:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:55:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:55:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:55:29 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:55:29 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 11:55:29 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:55:29 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:55:29 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:55:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:55:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:55:29 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (9)
+Mar 30 11:55:29 symfony [info] {sfWebDebugLogger} Factories 3.25 ms (1)
+Mar 30 11:55:29 symfony [info] {sfWebDebugLogger} Action "students/index" 82.85 ms (1)
+Mar 30 11:55:29 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 4.08 ms (1)
+Mar 30 11:55:29 symfony [info] {sfWebResponse} Send content (27896 o)
+Mar 30 11:56:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:56:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:56:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:56:04 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:56:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:56:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:56:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:56:50 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:56:50 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 11:56:50 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:56:50 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:56:50 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:56:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:56:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:56:50 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Mar 30 11:56:50 symfony [info] {sfWebDebugLogger} Factories 3.25 ms (1)
+Mar 30 11:56:50 symfony [info] {sfWebDebugLogger} Action "students/index" 6.81 ms (1)
+Mar 30 11:56:50 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 2.75 ms (1)
+Mar 30 11:56:50 symfony [info] {sfWebResponse} Send content (27974 o)
+Mar 30 11:57:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:57:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:57:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:57:02 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:57:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:57:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:57:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:57:04 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:57:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:57:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:57:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:57:55 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:57:55 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 11:57:55 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:57:55 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:57:55 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:57:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:57:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:57:55 symfony [info] {sfWebDebugLogger} Configuration 0.62 ms (9)
+Mar 30 11:57:55 symfony [info] {sfWebDebugLogger} Factories 3.08 ms (1)
+Mar 30 11:57:55 symfony [info] {sfWebDebugLogger} Action "students/index" 7.50 ms (1)
+Mar 30 11:57:55 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 2.92 ms (1)
+Mar 30 11:57:55 symfony [info] {sfWebResponse} Send content (28052 o)
+Mar 30 11:58:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:58:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:58:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:58:06 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:58:06 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 11:58:06 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:58:06 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:58:06 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:58:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:58:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:58:06 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Mar 30 11:58:06 symfony [info] {sfWebDebugLogger} Factories 3.08 ms (1)
+Mar 30 11:58:06 symfony [info] {sfWebDebugLogger} Action "students/index" 6.71 ms (1)
+Mar 30 11:58:06 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.00 ms (1)
+Mar 30 11:58:06 symfony [info] {sfWebResponse} Send content (28130 o)
+Mar 30 11:59:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 11:59:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 11:59:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 11:59:44 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 11:59:44 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 11:59:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 11:59:44 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:59:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 11:59:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 11:59:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 11:59:44 symfony [info] {sfWebDebugLogger} Configuration 0.58 ms (9)
+Mar 30 11:59:44 symfony [info] {sfWebDebugLogger} Factories 3.03 ms (1)
+Mar 30 11:59:44 symfony [info] {sfWebDebugLogger} Action "students/index" 7.38 ms (1)
+Mar 30 11:59:44 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 2.84 ms (1)
+Mar 30 11:59:44 symfony [info] {sfWebResponse} Send content (28208 o)
+Mar 30 12:00:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:00:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:00:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:00:22 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:00:22 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:00:22 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:00:22 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:00:22 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:00:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:00:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:00:22 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Mar 30 12:00:22 symfony [info] {sfWebDebugLogger} Factories 2.94 ms (1)
+Mar 30 12:00:22 symfony [info] {sfWebDebugLogger} Action "students/index" 6.23 ms (1)
+Mar 30 12:00:22 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.08 ms (1)
+Mar 30 12:00:22 symfony [info] {sfWebResponse} Send content (28286 o)
+Mar 30 12:01:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:01:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:01:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:01:00 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:01:00 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:01:00 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:01:00 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:00 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:01:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:01:00 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Mar 30 12:01:00 symfony [info] {sfWebDebugLogger} Factories 3.31 ms (1)
+Mar 30 12:01:00 symfony [info] {sfWebDebugLogger} Action "students/index" 6.35 ms (1)
+Mar 30 12:01:00 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.24 ms (1)
+Mar 30 12:01:00 symfony [info] {sfWebResponse} Send content (28364 o)
+Mar 30 12:01:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:01:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:01:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:01:17 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:01:17 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:01:17 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:01:17 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:17 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:01:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:01:17 symfony [info] {sfWebDebugLogger} Configuration 45.67 ms (9)
+Mar 30 12:01:17 symfony [info] {sfWebDebugLogger} Factories 30.10 ms (1)
+Mar 30 12:01:17 symfony [info] {sfWebDebugLogger} Action "students/index" 7.89 ms (1)
+Mar 30 12:01:17 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 4.63 ms (1)
+Mar 30 12:01:17 symfony [info] {sfWebResponse} Send content (28443 o)
+Mar 30 12:01:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:01:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:01:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:01:36 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:01:36 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:01:36 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:01:36 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:36 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:01:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:01:36 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (9)
+Mar 30 12:01:36 symfony [info] {sfWebDebugLogger} Factories 3.50 ms (1)
+Mar 30 12:01:36 symfony [info] {sfWebDebugLogger} Action "students/index" 6.84 ms (1)
+Mar 30 12:01:36 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.28 ms (1)
+Mar 30 12:01:36 symfony [info] {sfWebResponse} Send content (28520 o)
+Mar 30 12:01:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:01:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:01:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:01:44 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:01:44 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:01:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:01:44 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:01:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:01:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:01:44 symfony [info] {sfWebDebugLogger} Configuration 0.62 ms (9)
+Mar 30 12:01:44 symfony [info] {sfWebDebugLogger} Factories 3.37 ms (1)
+Mar 30 12:01:44 symfony [info] {sfWebDebugLogger} Action "students/index" 6.23 ms (1)
+Mar 30 12:01:44 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.64 ms (1)
+Mar 30 12:01:44 symfony [info] {sfWebResponse} Send content (28598 o)
+Mar 30 12:02:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:02:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:02:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:02:02 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:02:02 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:02:02 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:02:02 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:02:02 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:02:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:02:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:02:02 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (9)
+Mar 30 12:02:02 symfony [info] {sfWebDebugLogger} Factories 3.76 ms (1)
+Mar 30 12:02:02 symfony [info] {sfWebDebugLogger} Action "students/index" 6.94 ms (1)
+Mar 30 12:02:02 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.72 ms (1)
+Mar 30 12:02:02 symfony [info] {sfWebResponse} Send content (28676 o)
+Mar 30 12:02:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:02:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:02:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:02:24 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:02:24 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 23 (Undefined variable: database)
+Mar 30 12:02:24 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:02:24 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:02:24 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:02:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:02:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:02:24 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Mar 30 12:02:24 symfony [info] {sfWebDebugLogger} Factories 3.18 ms (1)
+Mar 30 12:02:24 symfony [info] {sfWebDebugLogger} Action "students/index" 7.04 ms (1)
+Mar 30 12:02:24 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 3.56 ms (1)
+Mar 30 12:02:24 symfony [info] {sfWebResponse} Send content (28754 o)
+Mar 30 12:02:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:02:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:02:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:02:40 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:03:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:03:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:03:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:03:15 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:08:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:08:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:08:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:08:08 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:08:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:08:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:08:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:08:23 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:08:23 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 36 (Undefined index: doctrine)
+Mar 30 12:08:23 symfony [err] {Doctrine\ODM\MongoDB\Hydrator\HydratorException} You must configure a hydrator directory. See docs for details
+Mar 30 12:08:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 12:08:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:08:23 symfony [info] {sfWebDebugLogger} Configuration 0.61 ms (8)
+Mar 30 12:08:23 symfony [info] {sfWebDebugLogger} Factories 3.92 ms (1)
+Mar 30 12:08:23 symfony [info] {sfWebDebugLogger} Action "students/index" 79.07 ms (1)
+Mar 30 12:08:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:08:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:08:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:08:56 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:08:56 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 36 (Undefined index: doctrine)
+Mar 30 12:08:56 symfony [err] {Doctrine\ODM\MongoDB\Hydrator\HydratorException} You must configure a hydrator directory. See docs for details
+Mar 30 12:08:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 12:08:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:08:56 symfony [info] {sfWebDebugLogger} Configuration 44.38 ms (8)
+Mar 30 12:08:56 symfony [info] {sfWebDebugLogger} Factories 29.93 ms (1)
+Mar 30 12:08:56 symfony [info] {sfWebDebugLogger} Action "students/index" 17.70 ms (1)
+Mar 30 12:10:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:10:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:10:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:10:44 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:10:44 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 36 (Undefined index: doctrine)
+Mar 30 12:10:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:10:44 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:10:44 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:10:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:10:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:10:44 symfony [info] {sfWebDebugLogger} Configuration 25.18 ms (10)
+Mar 30 12:10:44 symfony [info] {sfWebDebugLogger} Factories 3.29 ms (1)
+Mar 30 12:10:44 symfony [info] {sfWebDebugLogger} Action "students/index" 6.30 ms (1)
+Mar 30 12:10:44 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 28.49 ms (1)
+Mar 30 12:10:44 symfony [info] {sfWebResponse} Send content (28835 o)
+Mar 30 12:11:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:11:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:11:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:11:08 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:11:08 symfony [notice] {sfWebDebugLogger}  Notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 36 (Undefined index: database)
+Mar 30 12:11:08 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:11:08 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:11:08 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:11:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:11:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:11:08 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (9)
+Mar 30 12:11:08 symfony [info] {sfWebDebugLogger} Factories 3.57 ms (1)
+Mar 30 12:11:08 symfony [info] {sfWebDebugLogger} Action "students/index" 6.67 ms (1)
+Mar 30 12:11:08 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 4.37 ms (1)
+Mar 30 12:11:08 symfony [info] {sfWebResponse} Send content (28910 o)
+Mar 30 12:11:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:11:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:11:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:11:30 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:11:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:11:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:11:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:11:57 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:12:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:12:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:12:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:12:21 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:12:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:12:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:12:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:12:37 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:12:37 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:12:37 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:12:37 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:12:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:12:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:12:37 symfony [info] {sfWebDebugLogger} Configuration 0.63 ms (9)
+Mar 30 12:12:37 symfony [info] {sfWebDebugLogger} Factories 3.81 ms (1)
+Mar 30 12:12:37 symfony [info] {sfWebDebugLogger} Action "students/index" 6.08 ms (1)
+Mar 30 12:12:37 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 5.22 ms (1)
+Mar 30 12:12:37 symfony [info] {sfWebResponse} Send content (30126 o)
+Mar 30 12:13:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:13:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:13:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:13:21 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:13:21 symfony [err] {sfWebDebugLogger}  Strict notice at /Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php on line 34 (Non-static method sfDocumentManager::getODMConfig() should not be called statically)
+Mar 30 12:13:21 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:13:21 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:13:21 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:13:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:13:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:13:21 symfony [info] {sfWebDebugLogger} Configuration 0.62 ms (9)
+Mar 30 12:13:21 symfony [info] {sfWebDebugLogger} Factories 3.50 ms (1)
+Mar 30 12:13:21 symfony [info] {sfWebDebugLogger} Action "students/index" 6.30 ms (1)
+Mar 30 12:13:21 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 5.11 ms (1)
+Mar 30 12:13:21 symfony [info] {sfWebResponse} Send content (30204 o)
+Mar 30 12:13:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:13:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:13:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:13:31 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:13:31 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:13:31 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:13:31 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:13:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:13:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:13:31 symfony [info] {sfWebDebugLogger} Configuration 0.64 ms (9)
+Mar 30 12:13:31 symfony [info] {sfWebDebugLogger} Factories 3.81 ms (1)
+Mar 30 12:13:31 symfony [info] {sfWebDebugLogger} Action "students/index" 20.53 ms (1)
+Mar 30 12:13:31 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 5.16 ms (1)
+Mar 30 12:13:31 symfony [info] {sfWebResponse} Send content (30282 o)
+Mar 30 12:19:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:19:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:19:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:19:14 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:19:14 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/symfony/lib/autoload/sfAutoload.class.php on line 188 (require(/Users/shaduli/projects/sf1mongo/lib/sfDoctrineODMPlugin/sfDocumentManager.class.php): failed to open stream: No such file or directory)
+Mar 30 12:19:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:19:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:19:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:19:25 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:19:26 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:19:26 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:19:26 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:19:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:19:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:19:26 symfony [info] {sfWebDebugLogger} Configuration 45.42 ms (9)
+Mar 30 12:19:26 symfony [info] {sfWebDebugLogger} Factories 28.91 ms (1)
+Mar 30 12:19:26 symfony [info] {sfWebDebugLogger} Action "students/index" 805.33 ms (1)
+Mar 30 12:19:26 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 12.00 ms (1)
+Mar 30 12:19:26 symfony [info] {sfWebResponse} Send content (27822 o)
+Mar 30 12:21:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Mar 30 12:21:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 12:21:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 12:21:50 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Mar 30 12:21:50 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Mar 30 12:21:51 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:21:51 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 12:21:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 12:21:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 12:21:51 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (9)
+Mar 30 12:21:51 symfony [info] {sfWebDebugLogger} Factories 3.42 ms (1)
+Mar 30 12:21:51 symfony [info] {sfWebDebugLogger} Action "students/index" 774.65 ms (1)
+Mar 30 12:21:51 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 27.00 ms (1)
+Mar 30 12:21:51 symfony [info] {sfWebResponse} Send content (27825 o)
+Mar 30 15:55:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/new with parameters array (  'module' => 'students',  'action' => 'new',)
+Mar 30 15:55:40 symfony [info] {myUser} Automatic user logout due to timeout
+Mar 30 15:55:40 symfony [info] {myUser} User is not authenticated
+Mar 30 15:55:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 15:55:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 15:55:40 symfony [info] {studentsActions} Call "studentsActions->executeNew()"
+Mar 30 15:55:40 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/newSuccess.php"
+Mar 30 15:55:40 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 15:55:40 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 15:55:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 15:55:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 15:55:40 symfony [info] {sfWebDebugLogger} Configuration 102.29 ms (11)
+Mar 30 15:55:40 symfony [info] {sfWebDebugLogger} Factories 35.75 ms (1)
+Mar 30 15:55:40 symfony [info] {sfWebDebugLogger} Action "students/new" 137.06 ms (1)
+Mar 30 15:55:40 symfony [info] {sfWebDebugLogger} View "Success" for "students/new" 13.86 ms (1)
+Mar 30 15:55:40 symfony [info] {sfWebResponse} Send content (29751 o)
+Mar 30 15:58:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/new with parameters array (  'module' => 'students',  'action' => 'new',)
+Mar 30 15:58:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 15:58:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 15:58:07 symfony [info] {studentsActions} Call "studentsActions->executeNew()"
+Mar 30 15:58:07 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/newSuccess.php"
+Mar 30 15:58:07 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 15:58:07 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 15:58:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 15:58:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 15:58:07 symfony [info] {sfWebDebugLogger} Configuration 0.62 ms (9)
+Mar 30 15:58:07 symfony [info] {sfWebDebugLogger} Factories 3.17 ms (1)
+Mar 30 15:58:07 symfony [info] {sfWebDebugLogger} Action "students/new" 2.60 ms (1)
+Mar 30 15:58:07 symfony [info] {sfWebDebugLogger} View "Success" for "students/new" 3.08 ms (1)
+Mar 30 15:58:07 symfony [info] {sfWebResponse} Send content (29040 o)
+Mar 30 15:58:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit/1 with parameters array (  'module' => 'students',  'action' => 'edit',  1 => true,)
+Mar 30 15:58:12 symfony [info] {sfFrontWebController} Action "students/edit" does not exist
+Mar 30 15:58:12 symfony [err] {sfError404Exception} Action "students/edit" does not exist.
+Mar 30 15:58:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 30 15:58:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 15:58:12 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (5)
+Mar 30 15:58:12 symfony [info] {sfWebDebugLogger} Factories 3.44 ms (1)
+Mar 30 15:58:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 15:58:33 symfony [info] {sfFrontWebController} Action "students/edit" does not exist
+Mar 30 15:58:33 symfony [err] {sfError404Exception} Action "students/edit" does not exist.
+Mar 30 15:58:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 30 15:58:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 15:58:33 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (5)
+Mar 30 15:58:33 symfony [info] {sfWebDebugLogger} Factories 3.58 ms (1)
+Mar 30 15:58:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 15:58:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 15:58:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 15:58:46 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 15:58:46 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/DocumentManager.php on line 598 (Missing argument 2 for Doctrine\ODM\MongoDB\DocumentManager::find(), called in /Users/shaduli/projects/sf1mongo/apps/admin/modules/students/actions/actions.class.php on line 44 and defined)
+Mar 30 15:58:46 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 347 (class_parents(): Class 1 does not exist and could not be loaded)
+Mar 30 15:58:46 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 347 (array_reverse() expects parameter 1 to be array, boolean given)
+Mar 30 15:58:46 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 347 (Invalid argument supplied for foreach())
+Mar 30 15:58:46 symfony [err] {ReflectionException} Class 1 does not exist
+Mar 30 15:58:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 15:58:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 15:58:46 symfony [info] {sfWebDebugLogger} Configuration 14.84 ms (10)
+Mar 30 15:58:46 symfony [info] {sfWebDebugLogger} Factories 3.90 ms (1)
+Mar 30 15:58:46 symfony [info] {sfWebDebugLogger} Action "students/edit" 72.22 ms (1)
+Mar 30 15:59:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 15:59:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 15:59:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 15:59:50 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:00:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:00:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:00:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:00:06 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:00:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:00:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:00:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:00:30 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:00:30 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/DocumentManager.php on line 598 (Missing argument 2 for Doctrine\ODM\MongoDB\DocumentManager::find(), called in /Users/shaduli/projects/sf1mongo/apps/admin/modules/students/actions/actions.class.php on line 44 and defined)
+Mar 30 16:00:30 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/DocumentManager.php on line 492 (Illegal offset type in isset or empty)
+Mar 30 16:00:30 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 157 (strpos() expects parameter 1 to be string, array given)
+Mar 30 16:00:30 symfony [warning] {sfWebDebugLogger}  Warning at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php on line 158 (explode() expects parameter 2 to be string, array given)
+Mar 30 16:00:30 symfony [err] {Doctrine\ODM\MongoDB\MongoDBException} Unknown Document namespace alias ''.
+Mar 30 16:00:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 16:00:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 16:00:30 symfony [info] {sfWebDebugLogger} Configuration 0.63 ms (8)
+Mar 30 16:00:30 symfony [info] {sfWebDebugLogger} Factories 3.24 ms (1)
+Mar 30 16:00:30 symfony [info] {sfWebDebugLogger} Action "students/edit" 35.72 ms (1)
+Mar 30 16:00:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:00:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:00:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:00:47 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:00:47 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/editSuccess.php"
+Mar 30 16:00:47 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 16:00:47 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 16:00:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 16:00:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 16:00:47 symfony [info] {sfWebDebugLogger} Configuration 0.66 ms (9)
+Mar 30 16:00:47 symfony [info] {sfWebDebugLogger} Factories 3.50 ms (1)
+Mar 30 16:00:47 symfony [info] {sfWebDebugLogger} Action "students/edit" 9.95 ms (1)
+Mar 30 16:00:47 symfony [info] {sfWebDebugLogger} View "Success" for "students/edit" 3.39 ms (1)
+Mar 30 16:00:47 symfony [info] {sfWebResponse} Send content (29097 o)
+Mar 30 16:01:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:01:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:01:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:01:09 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:02:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:02:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:02:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:02:01 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:02:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:02:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:02:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:02:06 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:02:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:02:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:02:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:02:40 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:04:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:04:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:04:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:04:01 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:04:01 symfony [err] {Doctrine\ODM\MongoDB\MongoDBException} The identifier id is missing for a query of Documents\Student
+Mar 30 16:04:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 16:04:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 16:04:01 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (8)
+Mar 30 16:04:01 symfony [info] {sfWebDebugLogger} Factories 3.54 ms (1)
+Mar 30 16:04:01 symfony [info] {sfWebDebugLogger} Action "students/edit" 29.08 ms (1)
+Mar 30 16:04:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:04:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:04:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:04:11 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:04:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:04:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:04:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:04:29 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:04:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:04:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:04:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:04:35 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:05:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:05:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:05:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:05:14 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:05:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:05:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:05:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:05:34 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:05:34 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/editSuccess.php"
+Mar 30 16:05:34 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 16:05:34 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Mar 30 16:05:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 16:05:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 16:05:34 symfony [info] {sfWebDebugLogger} Configuration 0.61 ms (9)
+Mar 30 16:05:34 symfony [info] {sfWebDebugLogger} Factories 3.32 ms (1)
+Mar 30 16:05:34 symfony [info] {sfWebDebugLogger} Action "students/edit" 9.37 ms (1)
+Mar 30 16:05:34 symfony [info] {sfWebDebugLogger} View "Success" for "students/edit" 3.48 ms (1)
+Mar 30 16:05:34 symfony [info] {sfWebResponse} Send content (29165 o)
+Mar 30 16:05:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:05:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:05:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:05:43 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:09:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:09:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:09:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:09:06 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:10:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:10:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:10:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:10:11 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:10:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:10:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:10:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:10:32 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:10:32 symfony [err] {sfException} The "StudentForm" form only accepts a "Student" object.
+Mar 30 16:10:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 16:10:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 16:10:32 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (8)
+Mar 30 16:10:32 symfony [info] {sfWebDebugLogger} Factories 3.52 ms (1)
+Mar 30 16:10:32 symfony [info] {sfWebDebugLogger} Action "students/edit" 19.79 ms (1)
+Mar 30 16:14:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:14:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:14:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:14:28 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Mar 30 16:18:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/edit with parameters array (  'module' => 'students',  'action' => 'edit',)
+Mar 30 16:18:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 16:18:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 16:18:03 symfony [info] {studentsActions} Call "studentsActions->executeEdit()"
+Apr 02 09:22:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 09:23:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 09:23:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 09:23:01 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 09:23:07 symfony [err] {MongoConnectionException} Invalid argument
+Apr 02 09:23:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 09:23:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 09:23:08 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (8)
+Apr 02 09:23:08 symfony [info] {sfWebDebugLogger} Factories 4785.92 ms (1)
+Apr 02 09:23:08 symfony [info] {sfWebDebugLogger} Action "students/index" 6465.69 ms (1)
+Apr 02 09:23:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 09:23:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 09:23:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 09:23:39 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 09:23:39 symfony [err] {MongoConnectionException} Invalid argument
+Apr 02 09:23:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 09:23:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 09:23:39 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (8)
+Apr 02 09:23:39 symfony [info] {sfWebDebugLogger} Factories 4.57 ms (1)
+Apr 02 09:23:39 symfony [info] {sfWebDebugLogger} Action "students/index" 53.23 ms (1)
+Apr 02 09:24:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 09:24:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 09:24:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 09:24:03 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 09:24:05 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Apr 02 09:24:05 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 09:24:05 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 09:24:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 09:24:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 09:24:05 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (9)
+Apr 02 09:24:05 symfony [info] {sfWebDebugLogger} Factories 3.24 ms (1)
+Apr 02 09:24:05 symfony [info] {sfWebDebugLogger} Action "students/index" 2168.92 ms (1)
+Apr 02 09:24:05 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 221.97 ms (1)
+Apr 02 09:24:05 symfony [info] {sfWebResponse} Send content (27909 o)
+Apr 02 11:27:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:27:23 symfony [info] {myUser} Automatic user logout due to timeout
+Apr 02 11:27:23 symfony [info] {myUser} User is not authenticated
+Apr 02 11:27:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:27:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:27:24 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:27:24 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Apr 02 11:27:24 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 11:27:24 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 11:27:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 11:27:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 11:27:24 symfony [info] {sfWebDebugLogger} Configuration 104.16 ms (9)
+Apr 02 11:27:24 symfony [info] {sfWebDebugLogger} Factories 409.93 ms (1)
+Apr 02 11:27:24 symfony [info] {sfWebDebugLogger} Action "students/index" 388.94 ms (1)
+Apr 02 11:27:24 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 177.50 ms (1)
+Apr 02 11:27:24 symfony [info] {sfWebResponse} Send content (28704 o)
+Apr 02 11:32:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:32:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:32:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:32:48 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:32:49 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Apr 02 11:32:49 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 11:32:49 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 11:32:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 11:32:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 11:32:49 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Apr 02 11:32:49 symfony [info] {sfWebDebugLogger} Factories 23.31 ms (1)
+Apr 02 11:32:49 symfony [info] {sfWebDebugLogger} Action "students/index" 216.23 ms (1)
+Apr 02 11:32:49 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 20.69 ms (1)
+Apr 02 11:32:49 symfony [info] {sfWebResponse} Send content (28079 o)
+Apr 02 11:33:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:33:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:33:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:33:59 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:33:59 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/indexSuccess.php"
+Apr 02 11:33:59 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 11:33:59 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 11:33:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 11:33:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 11:33:59 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (9)
+Apr 02 11:33:59 symfony [info] {sfWebDebugLogger} Factories 2.97 ms (1)
+Apr 02 11:33:59 symfony [info] {sfWebDebugLogger} Action "students/index" 9.33 ms (1)
+Apr 02 11:33:59 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 11.28 ms (1)
+Apr 02 11:33:59 symfony [info] {sfWebResponse} Send content (28162 o)
+Apr 02 11:35:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:35:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:35:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:35:23 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:41:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:41:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:41:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:41:48 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:41:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:41:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:41:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:41:51 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:48:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:48:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:48:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:48:06 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:48:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:48:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:48:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:48:54 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 11:49:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 11:49:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 11:49:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 11:49:09 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:08:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:08:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:08:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:08:33 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:12:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:12:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:12:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:12:13 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:17:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:17:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:17:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:17:09 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:18:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:18:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:18:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:18:15 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:18:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:18:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:18:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:18:58 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:18:58 symfony [err] {Doctrine\Common\Annotations\AnnotationException} [Semantical Error] The annotation "@ReferenceOne" in property Documents\DynamicList::$parent was never imported. Did you maybe forget to add a "use" statement for this annotation?
+Apr 02 12:18:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 12:18:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:18:58 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (8)
+Apr 02 12:18:58 symfony [info] {sfWebDebugLogger} Factories 3.16 ms (1)
+Apr 02 12:18:58 symfony [info] {sfWebDebugLogger} Action "students/index" 251.39 ms (1)
+Apr 02 12:19:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:19:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:19:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:19:17 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:19:17 symfony [err] {Doctrine\Common\Annotations\AnnotationException} [Semantical Error] The annotation "@ReferenceMany" in property Documents\DynamicList::$children was never imported. Did you maybe forget to add a "use" statement for this annotation?
+Apr 02 12:19:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 12:19:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:19:18 symfony [info] {sfWebDebugLogger} Configuration 0.53 ms (8)
+Apr 02 12:19:18 symfony [info] {sfWebDebugLogger} Factories 3.06 ms (1)
+Apr 02 12:19:18 symfony [info] {sfWebDebugLogger} Action "students/index" 41.15 ms (1)
+Apr 02 12:20:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:20:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:20:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:20:14 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:20:14 symfony [err] {Doctrine\Common\Annotations\AnnotationException} [Semantical Error] The annotation "@Index" in property Documents\DynamicList::$children was never imported. Did you maybe forget to add a "use" statement for this annotation?
+Apr 02 12:20:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 12:20:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:20:14 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (8)
+Apr 02 12:20:14 symfony [info] {sfWebDebugLogger} Factories 3.28 ms (1)
+Apr 02 12:20:14 symfony [info] {sfWebDebugLogger} Action "students/index" 55.05 ms (1)
+Apr 02 12:20:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:20:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:20:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:20:51 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:20:52 symfony [err] {sfWebDebugLogger}  Error at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/vendor/doctrine/common/lib/Doctrine/Common/Collections/ArrayCollection.php on line 46 (Argument 1 passed to Doctrine\Common\Collections\ArrayCollection::__construct() must be an array, object given, called in /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/UnitOfWork.php on line 591 and defined)
+Apr 02 12:21:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:21:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:21:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:21:13 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:21:13 symfony [err] {sfWebDebugLogger}  Error at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/vendor/doctrine/common/lib/Doctrine/Common/Collections/ArrayCollection.php on line 46 (Argument 1 passed to Doctrine\Common\Collections\ArrayCollection::__construct() must be an array, object given, called in /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/UnitOfWork.php on line 591 and defined)
+Apr 02 12:43:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /students with parameters array (  'module' => 'students',  'action' => 'index',)
+Apr 02 12:43:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:43:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:43:23 symfony [info] {studentsActions} Call "studentsActions->executeIndex()"
+Apr 02 12:43:23 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Apr 02 12:43:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 12:43:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:43:23 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (9)
+Apr 02 12:43:23 symfony [info] {sfWebDebugLogger} Factories 37.68 ms (1)
+Apr 02 12:43:23 symfony [info] {sfWebDebugLogger} Action "students/index" 49.88 ms (1)
+Apr 02 12:43:23 symfony [info] {sfWebDebugLogger} View "Success" for "students/index" 134.33 ms (1)
+Apr 02 12:53:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/add with parameters array (  'module' => 'students',  'action' => 'add',)
+Apr 02 12:53:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:53:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:53:58 symfony [info] {studentsActions} Call "studentsActions->executeAdd()"
+Apr 02 12:53:58 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/modules/students/templates/addSuccess.php"
+Apr 02 12:53:58 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 12:53:58 symfony [info] {sfPHPView} Render "/Users/shaduli/projects/sf1mongo/apps/admin/templates/layout.php"
+Apr 02 12:53:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 12:53:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:53:58 symfony [info] {sfWebDebugLogger} Configuration 0.64 ms (9)
+Apr 02 12:53:58 symfony [info] {sfWebDebugLogger} Factories 56.96 ms (1)
+Apr 02 12:53:58 symfony [info] {sfWebDebugLogger} Action "students/add" 37.03 ms (1)
+Apr 02 12:53:58 symfony [info] {sfWebDebugLogger} View "Success" for "students/add" 16.36 ms (1)
+Apr 02 12:53:58 symfony [info] {sfWebResponse} Send content (29550 o)
+Apr 02 12:54:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/add with parameters array (  'module' => 'students',  'action' => 'add',)
+Apr 02 12:54:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:54:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:54:06 symfony [info] {studentsActions} Call "studentsActions->executeAdd()"
+Apr 02 12:54:06 symfony [err] {sfWebDebugLogger}  Error at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/vendor/doctrine/common/lib/Doctrine/Common/Collections/ArrayCollection.php on line 46 (Argument 1 passed to Doctrine\Common\Collections\ArrayCollection::__construct() must be an array, object given, called in /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/UnitOfWork.php on line 591 and defined)
+Apr 02 12:54:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /students/add with parameters array (  'module' => 'students',  'action' => 'add',)
+Apr 02 12:54:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:54:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:54:36 symfony [info] {studentsActions} Call "studentsActions->executeAdd()"
+Apr 02 12:54:36 symfony [err] {sfWebDebugLogger}  Error at /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/vendor/doctrine/common/lib/Doctrine/Common/Collections/ArrayCollection.php on line 46 (Argument 1 passed to Doctrine\Common\Collections\ArrayCollection::__construct() must be an array, object given, called in /Users/shaduli/projects/sf1mongo/lib/vendor/mongodb-odm/lib/Doctrine/ODM/MongoDB/UnitOfWork.php on line 591 and defined)

@@ -1,6 +1,7 @@
 <?php
 ini_set('display_errors', 'on');
-use Documents\Student;
+use Documents\Student,
+    Documents\DynamicList;
 /**
  * students actions.
  *
@@ -16,7 +17,7 @@ class studentsActions extends sfActions
   *
   * @param sfRequest $request A request object
   */
-  public function executeIndex(sfWebRequest $request)
+  public function executeAdd(sfWebRequest $request)
   {
       $dm = sfDocumentManager::getDocumentManager();
       $student = new Student();
@@ -29,7 +30,20 @@ class studentsActions extends sfActions
       
       
       $this->students = $query->findAll();
-    
+      
+      
+      $dlist = new DynamicList();
+      
+      $dlist->setAttribute('Name');
+      $dlist->setValue('Truck');
+     
+      $children = new DynamicList();
+      $children->setAttribute('some');
+      $children->setValue('dsdd');
+      
+      $dlist->setChildren($children);
+      $dm->persist($dlist);
+      $dm->flush();
   }
   
   
@@ -46,5 +60,15 @@ class studentsActions extends sfActions
       //$this->form = new StudentForm($student->);
   }
   
+  
+  
+  public function executeIndex(sfWebRequest $request) {
+      $dm = sfDocumentManager::getDocumentManager();
+      
+      $query = $dm->getRepository('Documents\DynamicList');
+      
+      
+      $this->list = $query->findAll();
+  }
   
 }
